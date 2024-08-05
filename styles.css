@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+  }
+  
+  header nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  #hero {
+    background: url('hero.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  #search-form input, #search-form button {
+    margin: 0.5em;
+    padding: 0.5em;
+    border: none;
+  }
+  
+  #featured-rooms {
+    margin-top: 2em;
+  }
+  
+  .room-grid {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .room-card {
+    border: 1px solid #ccc;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
